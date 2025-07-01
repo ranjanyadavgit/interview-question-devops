@@ -1,0 +1,9 @@
+Q1) Your team reports that an application running in kubernetes has become slow and users are experiencing high reposnse times.How 
+  would you solve this problem?
+ans-> 1. Check pod utitlization. Increase resources if they are under limit
+
+  Kubectl get pods --sort-by=cpu
+  Kubectl ger pods --sort-by=memory
+
+ Q2)Describe the slow pod to show more information.Look for resource throttling.restart count,or liveness probe failures.
+  
