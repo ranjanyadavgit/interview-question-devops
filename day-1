@@ -6,4 +6,6 @@ ans-> 1. Check pod utitlization. Increase resources if they are under limit
   Kubectl ger pods --sort-by=memory
 
  Q2)Describe the slow pod to show more information.Look for resource throttling.restart count,or liveness probe failures.
+
+
   
